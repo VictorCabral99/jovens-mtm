@@ -1,7 +1,7 @@
-import express from "express";
-import bodyParser from "body-parser";
-import webpush from "web-push";
-import dotenv from "dotenv";
+const express = require("express");
+const bodyParser = require("body-parser");
+const webpush = require("web-push");
+const dotenv = require("dotenv");
 
 dotenv.config();
 const app = express();
